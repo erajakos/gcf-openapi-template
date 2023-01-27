@@ -1,7 +1,7 @@
 # Google Cloud Functions Example API  (template)
 
 ## Description
-This project serves as a template for utilizing Google Cloud functions with Python, Google Cloud API Gateway with OpenAPI 3 definitions, and Terraform to manage the infrastructure. It provides an example of how to set up and deploy a simple API using these technologies.
+This project serves as a template for utilizing Google Cloud functions with Python, Google Cloud API Gateway with OpenAPI 2 definitions, and Terraform to manage the infrastructure. It provides an example of how to set up and deploy a simple API using these technologies.
 
 ## Requirements
 - Python 3.x
