@@ -33,10 +33,12 @@ Terraform handles updates to the infrastructure and function code. Run `terrafor
 Once the infrastructure is set up, you can make requests to the API Gateway endpoint to trigger the Cloud function.
 
 ## Test a function locally
-`pip install functions-framework`
-`cd functions/helloWorld`
-`functions-framework --target=hello_world`
-`curl http://localhost:8080` 
+```bash
+pip install functions-framework
+cd functions/helloWorld
+functions-framework --target=hello_world
+curl http://localhost:8080
+``` 
 
 ## Troubleshooting
 - Make sure you have the correct permissions to access the Google Cloud project
