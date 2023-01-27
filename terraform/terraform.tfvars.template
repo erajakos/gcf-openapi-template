@@ -1,0 +1,8 @@
+# GCP Settings
+gcp_project   = "my-project-name"
+gcp_region    = "europe-west1"
+gcp_auth_file = "../auth-file.json"
+
+# Functions bucket
+functions_bucket = "functions-bucket-name"
+functions_dir    = "../functions"

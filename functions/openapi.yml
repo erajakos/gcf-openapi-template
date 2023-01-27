@@ -1,0 +1,20 @@
+swagger: "2.0"
+info:
+  title: Example API
+  version: "1.0.0"
+host: localhost
+basePath: /
+schemes:
+  - https
+paths:
+  /hello:
+    get:
+      summary: Returns a greeting
+      operationId: hello
+      x-google-backend:
+        address: ${helloWorld_url}
+      responses:
+        200:
+          description: A greeting
+          schema:
+            type: string
